@@ -9,7 +9,6 @@ changelog:
   categories:
     - title: Breaking Change
       labels: ['Type: Breaking Change']
-
     - title: Bug
       labels: ['Type: Bug']
     - title: Documentation
