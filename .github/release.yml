@@ -4,31 +4,18 @@
 changelog:
   exclude:
     labels:
-      - 'ignore for release'
-
+      - ignore-for-release
+    authors:
+      - octocat
   categories:
-    - title: Breaking Change
-      labels: ['Type: Breaking Change']
-    - title: Bug
-      labels: ['Type: Bug']
-    - title: Documentation
-      labels: ['Type: Documentation']
-    - title: Feature
-      labels: ['Type: Feature']
-    - title: Refactoring
-      labels: ['Type: Refactoring']
-    - title: Testing
-      labels: ['Type: Testing']
-    - title: Maintenance
-      labels: ['Type: Maintenance']
-    - title: CI
-      labels: ['Type: CI']
-    - title: Question
-      labels: ['Type: Question']
-    - title: Security
-      labels: ['Type: Security']
-    - title: Dependencies
-      labels: ['Type: Dependencies']
-
+    - title: Breaking Changes 🛠
+      labels:
+        - Semver-Major
+        - breaking-change
+    - title: Exciting New Features 🎉
+      labels:
+        - Semver-Minor
+        - enhancement
     - title: Other Changes
-      labels: ['*']
+      labels:
+        - "*"
